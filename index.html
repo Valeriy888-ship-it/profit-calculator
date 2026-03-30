@@ -9,17 +9,17 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --cream: #F8F4EE;
-    --warm-white: #FDFAF6;
-    --sand: #E8DFD0;
-    --mocha: #8B6F5E;
-    --espresso: #3D2B1F;
-    --sage: #7A8C6E;
-    --coral: #C97B5A;
-    --light-coral: #F0E0D4;
-    --gold: #C4A45A;
-    --light-sage: #EDF1EA;
-    --shadow: rgba(61, 43, 31, 0.08);
+    --cream: #F5F0E6;
+    --warm-white: #FAF8F3;
+    --sand: #E0D8C8;
+    --mocha: #666666;
+    --espresso: #333333;
+    --sage: #2E8B57;
+    --coral: #FF6B35;
+    --light-coral: #FFF0EA;
+    --gold: #FF6B35;
+    --light-sage: #E8F5EE;
+    --shadow: rgba(51, 51, 51, 0.08);
   }
 
   body {
@@ -44,7 +44,7 @@
     top: -60px; right: -60px;
     width: 200px; height: 200px;
     border-radius: 50%;
-    background: rgba(196, 164, 90, 0.12);
+    background: rgba(255, 107, 53, 0.12);
   }
   .header::after {
     content: '';
@@ -52,7 +52,7 @@
     bottom: -80px; left: -40px;
     width: 240px; height: 240px;
     border-radius: 50%;
-    background: rgba(201, 123, 90, 0.08);
+    background: rgba(46, 139, 87, 0.10);
   }
   .header-label {
     font-family: 'Jost', sans-serif;
@@ -383,7 +383,7 @@
   .hour-rate-bar {
     height: 100%;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--coral), var(--gold));
+    background: linear-gradient(90deg, #FF6B35, #2E8B57);
     transition: width 0.5s ease;
   }
   .hour-rate-values {
@@ -420,7 +420,7 @@
   /* CTA */
   .cta-block {
     margin-top: 24px;
-    background: linear-gradient(135deg, var(--light-coral), var(--cream));
+    background: linear-gradient(135deg, #FFF0EA, var(--cream));
     border-radius: 16px;
     padding: 22px 20px;
     text-align: center;
